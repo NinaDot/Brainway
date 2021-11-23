@@ -6,4 +6,11 @@
 }
 .video {
   text-align: center;
+  background-color: #F8F8F8;
+}
+.solutions{
+    text-align: center;
+}
+.goal{
+    background: linear-gradient(to left, #E0FFFF 0%, #E6E6FA 100%);
 }
