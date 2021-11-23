@@ -1,6 +1,9 @@
-.offer{
-    background-image: url(../assets/main_image.jpg);
-    background-repeat: no-repeat;   	
-background-position: right;
-padding: 5% 0 5% 0;
+.offer {
+  background-image: url(../assets/main_image.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 5% 0 5% 0;
+}
+.video {
+  text-align: center;
 }
