@@ -6,15 +6,19 @@
 }
 .video {
   text-align: center;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
-.solutions{
-    text-align: center;
+.solutions {
+  text-align: center;
 }
-.goal{
-    background: linear-gradient(to left, #E0FFFF 0%, #E6E6FA 100%);
+.goal {
+  background: linear-gradient(to left, #e0ffff 0%, #e6e6fa 100%);
 }
-.partners{
+.partners {
   display: flex;
   justify-content: space-between;
+}
+footer {
+  background-color: black;
+  color: white;
 }
