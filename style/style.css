@@ -14,3 +14,7 @@
 .goal{
     background: linear-gradient(to left, #E0FFFF 0%, #E6E6FA 100%);
 }
+.partners{
+  display: flex;
+  justify-content: space-between;
+}
