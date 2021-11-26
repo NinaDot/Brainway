@@ -1,64 +1,10 @@
+@import url(header.css);
+@import url(menu.css);
+
 body {
-    font-family: 'Rubik';
-    font-weight: normal;
-    font-style: normal;
-}
-.header-list__item{
- padding: 1% 0 0 1%;
-}
-.header-list__link{
-  font-size: 17px;
-  font-weight: 400;
-  color: black;
-  line-height: 20px;
-  letter-spacing: 0.05em;
-}
-.header-list__link:hover{
-  font-weight: 500;
-  color: black;
-}
-.header-list__link:active{
-  text-decoration: underline;
-  text-decoration-color: #6A11CB;
-}
-.header-list__link:visited{
-  color: black;
-}
-.btn-color{
-  padding: 5% 10% 2% 11%;
-  letter-spacing: 1px;
-  border-radius: 10px;
-  background: linear-gradient(90deg, #6A11CB, #2575FC);
-  -webkit-box-shadow: 1px 13px 17px -1px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 1px 13px 17px -1px rgba(34, 60, 80, 0.2);
-box-shadow: 1px 13px 17px -1px rgba(34, 60, 80, 0.2);
-outline: none;
-}
-.btn-color:hover{
-  -webkit-box-shadow: 0px -1px 49px 2px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 0px -1px 49px 2px rgba(34, 60, 80, 0.2);
-box-shadow: 0px -1px 49px 2px #2575FC;
-outline: none;
-}
-.btn-color:active{
-   background: linear-gradient(90deg, #8939E0, #68A0FD);
-   outline: none;
-}
-.btn-header{
-  font-size: 17px;
-  font-weight: 500;
-}
-.lang{
-  display: flex;
-}
-.lang-img{
-  padding: 0 5px 0 5px
-}
-.lang-text{
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
-  
+  font-family: "Rubik";
+  font-weight: normal;
+  font-style: normal;
 }
 .offer {
   background-image: url(../assets/main_image.jpg);
