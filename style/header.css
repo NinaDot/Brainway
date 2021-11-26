@@ -54,3 +54,6 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+.header-menu-mobile{
+    display: none;
+}
