@@ -1,3 +1,8 @@
+body {
+    font-family: 'Rubik';
+    font-weight: normal;
+    font-style: normal;
+}
 .offer {
   background-image: url(../assets/main_image.jpg);
   background-repeat: no-repeat;
