@@ -10,13 +10,6 @@
   letter-spacing: 0.03em;
   padding: 0 0 5% 0;
 }
-.video-span {
-  background: -o-linear-gradient(45deg, #6a11cb 33%, #2575fc 66%, #8aa9d6);
-  background: linear-gradient(45deg, #6a11cb 33%, #2575fc 66%, #8aa9d6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #2575fc;
-}
 .player {
   position: relative;
 }
