@@ -71,6 +71,24 @@ text-align: center;
   .solution-title__mini{
       text-align: center;
   }
+  .goal-title__mini{
+      display: none;
+  }
+  .goal-title__span{
+      display: inline;
+       font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 0 0 0 10%;
+  }
+.goal-border__last {
+    border-bottom: none;
+}
+.goal-border__first{
+    border-top: none;
+}
 }
 @media (max-width: 1199.98px) {
 }

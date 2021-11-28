@@ -38,6 +38,13 @@
   -webkit-border-image: -webkit-linear-gradient(#6a11cb, #2575fc);
   border-image-slice: 1;
 }
+.goal-border__first {
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(#6a11cb, #2575fc);
+  -moz-border-image: -moz-linear-gradient(#6a11cb, #2575fc);
+  -webkit-border-image: -webkit-linear-gradient(#6a11cb, #2575fc);
+  border-image-slice: 1;
+}
 .goal-border__last {
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
@@ -48,4 +55,7 @@
 }
 .btn-goal {
   padding: 5% 20% 5% 20%;
+}
+.goal-title__span {
+  display: none;
 }
