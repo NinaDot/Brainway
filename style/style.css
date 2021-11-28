@@ -1,3 +1,4 @@
+@import url(normalize.css);
 @import url(header.css);
 @import url(menu.css);
 @import url(mobile.css);
@@ -16,11 +17,17 @@ body {
   text-align: center;
 }
 .goal {
+  background: -webkit-gradient(linear, right top, left top, from(#e0ffff), to(#e6e6fa));
+  background: -o-linear-gradient(right, #e0ffff 0%, #e6e6fa 100%);
   background: linear-gradient(to left, #e0ffff 0%, #e6e6fa 100%);
 }
 .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 footer {
   background-color: black;
