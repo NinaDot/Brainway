@@ -1,0 +1,51 @@
+.goal {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#e0ffff),
+    to(#e6e6fa)
+  );
+  background: -o-linear-gradient(right, #e0ffff 0%, #e6e6fa 100%);
+  background: linear-gradient(to left, #e0ffff 0%, #e6e6fa 100%);
+  padding: 0 0 5% 0;
+}
+.goal-title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.goal-title__mini {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.goal-text {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.goal-border {
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(#6a11cb, #2575fc);
+  -moz-border-image: -moz-linear-gradient(#6a11cb, #2575fc);
+  -webkit-border-image: -webkit-linear-gradient(#6a11cb, #2575fc);
+  border-image-slice: 1;
+}
+.goal-border__last {
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(#6a11cb, #2575fc);
+  -moz-border-image: -moz-linear-gradient(#6a11cb, #2575fc);
+  -webkit-border-image: -webkit-linear-gradient(#6a11cb, #2575fc);
+  border-image-slice: 1;
+}
+.btn-goal {
+  padding: 5% 20% 5% 20%;
+}

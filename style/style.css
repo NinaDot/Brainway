@@ -4,6 +4,7 @@
 @import url(offer.css);
 @import url(video.css);
 @import url(solution.css);
+@import url(goal.css);
 
 body {
   font-family: "Rubik";
@@ -16,14 +17,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #2575fc;
-}
-.solutions {
-  text-align: center;
-}
-.goal {
-  background: -webkit-gradient(linear, right top, left top, from(#e0ffff), to(#e6e6fa));
-  background: -o-linear-gradient(right, #e0ffff 0%, #e6e6fa 100%);
-  background: linear-gradient(to left, #e0ffff 0%, #e6e6fa 100%);
 }
 .partners {
   display: -webkit-box;
