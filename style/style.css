@@ -1,17 +1,13 @@
 @import url(normalize.css);
 @import url(header.css);
 @import url(menu.css);
-@import url(mobile.css);
 @import url(offer.css);
+@import url(video.css);
 
 body {
   font-family: "Rubik";
   font-weight: normal;
   font-style: normal;
-}
-.video {
-  text-align: center;
-  background-color: #f8f8f8;
 }
 .solutions {
   text-align: center;
