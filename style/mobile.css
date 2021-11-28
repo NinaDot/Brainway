@@ -7,11 +7,9 @@
    }
    .offer{
        background-image: none;
-       background-color: white;
    }
    .offer-title{
        font-size: 35px;
-       letter-spacing: 0em;
    }
    .offer-img{
        display: block;
@@ -26,7 +24,6 @@
    }
    .offer{
        background-image: none;
-        background-color: white;
    }
    .offer-title{
        font-size: 35px;
@@ -44,10 +41,6 @@
    }
    .offer{
        background-image: none;
-        background-color: white;
-   }
-   .offer-title{
-       font-size: 35px;
    }
    .offer-img{
        display: block;
