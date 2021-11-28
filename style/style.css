@@ -8,12 +8,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.offer {
-  background-image: url(../assets/main_image.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  padding: 5% 0 5% 0;
-}
 .video {
   text-align: center;
   background-color: #f8f8f8;

@@ -1,4 +1,8 @@
 .offer {
+  background-image: url(../assets/main_image.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 5% 0 5% 0;
   margin: 4% 0 0 0;
   letter-spacing: 0.03em;
   font-size: 20px;
@@ -13,7 +17,7 @@
 }
 .offer-title__span {
   background: linear-gradient(45deg, #6a11cb 33%, #2575fc 66%, #8aa9d6);
-   -webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #2575fc;
 }
@@ -24,6 +28,6 @@
 .offer-text__bold {
   font-weight: 700;
 }
-.offer-img{
+.offer-img {
   display: none;
 }
