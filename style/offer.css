@@ -1,0 +1,29 @@
+.offer {
+  margin: 4% 0 0 0;
+  letter-spacing: 0.03em;
+  font-size: 20px;
+  line-height: 32px;
+}
+.offer-title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 77px;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+.offer-title__span {
+  background: linear-gradient(45deg, #6a11cb 33%, #2575fc 66%, #8aa9d6);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #2575fc;
+}
+.offer-text {
+  font-weight: 500;
+  margin: 0 0 5% 0;
+}
+.offer-text__bold {
+  font-weight: 700;
+}
+.offer-img{
+  display: none;
+}
