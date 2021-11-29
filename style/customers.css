@@ -1,0 +1,40 @@
+.customers-title{
+font-size: 40px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0.03em;
+text-align: center;
+padding: 5% 0 5% 0;
+}
+.customers-name{
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.customers-company{
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.customers-span{
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.customers-text{
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.customers-carousel{
+   border: 2px solid grey;
+   border-radius: 20px;
+}
