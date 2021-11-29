@@ -6,6 +6,7 @@
 @import url(solution.css);
 @import url(goal.css);
 @import url(customers.css);
+@import url(footer.css);
 
 body {
   font-family: "Rubik";
@@ -28,7 +29,4 @@ body {
   justify-content: space-between;
   padding: 5% 0 5% 0;
 }
-footer {
-  background-color: black;
-  color: white;
-}
+

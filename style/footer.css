@@ -1,0 +1,33 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 5% 0 5% 0;
+}
+.footer-right{
+text-align: right;
+}
+.footer-list{
+    list-style-type: none;
+}
+.footer-list__item{
+    padding: 2% 0 2% 0;
+}
+.footer-title{
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+}
+.footer-text{
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+}
+.footer-social{
+    padding: 0 2% 0 2%;
+}
+.copy-small-screen{
+    display: none;
+    padding: 5% 0 5% 0;
+}

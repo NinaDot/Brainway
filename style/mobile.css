@@ -18,17 +18,32 @@
     font-size: 20px;
     line-height: 28px;
   }
-  .solution-img{
-      display: block;
-      max-width: 100%;
-      height: auto;
+  .solution-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
-  .goal-title{
-font-size: 30px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0.03em;
-text-align: center;
+  .goal-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .footer-right {
+    text-align: left;
+  }
+  .footer-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+  .copy-small-screen{
+    display: block;
+  }
+   .copy-big-screen{
+    display: none;
   }
 }
 @media (max-width: 767.98px) {
@@ -47,12 +62,28 @@ text-align: center;
   .offer-img {
     display: block;
   }
-    .goal-title{
-font-size: 30px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0.03em;
-text-align: center;
+  .goal-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .footer-right {
+    text-align: left;
+  }
+   .footer-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 2% 0 2% 0;
+  }
+  .copy-small-screen{
+    display: block;
+  }
+  .copy-big-screen{
+    display: none;
   }
 }
 @media (max-width: 991.98px) {
@@ -68,27 +99,27 @@ text-align: center;
   .offer-img {
     display: block;
   }
-  .solution-title__mini{
-      text-align: center;
+  .solution-title__mini {
+    text-align: center;
   }
-  .goal-title__mini{
-      display: none;
+  .goal-title__mini {
+    display: none;
   }
-  .goal-title__span{
-      display: inline;
-       font-size: 25px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding: 0 0 0 10%;
+  .goal-title__span {
+    display: inline;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 0 0 0 10%;
   }
-.goal-border__last {
+  .goal-border__last {
     border-bottom: none;
-}
-.goal-border__first{
+  }
+  .goal-border__first {
     border-top: none;
-}
+  }
 }
 @media (max-width: 1199.98px) {
 }
