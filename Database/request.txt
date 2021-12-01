@@ -1,0 +1,2 @@
+select id,created_at, offer_id, comment_text from comments where user_id = '1'
+select id, created_at, user_id, offer_type, title, price, picture from offers where created_at = '28.11.2021' order by created_at
