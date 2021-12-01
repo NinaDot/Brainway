@@ -13,6 +13,7 @@ body {
   font-family: "Rubik";
   font-weight: normal;
   font-style: normal;
+  overflow-x: hidden;
 }
 .gradient {
   background: -o-linear-gradient(45deg, #6a11cb 33%, #2575fc 66%, #8aa9d6);
