@@ -88,6 +88,9 @@
   .copy-big-screen{
     display: none;
   }
+    .partners{
+    display: none;
+  }
 }
 @media (max-width: 991.98px) {
   .header-menu-desktop {
