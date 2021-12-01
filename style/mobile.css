@@ -45,6 +45,9 @@
    .copy-big-screen{
     display: none;
   }
+  .partners{
+    display: none;
+  }
 }
 @media (max-width: 767.98px) {
   .header-menu-desktop {
