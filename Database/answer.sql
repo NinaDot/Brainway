@@ -11,7 +11,7 @@ WHERE user_id=1
 
 SELECT id, to_char(created_at, 'DD.MM.YYYY'), user_id, offer_type, title, price, picture
 FROM offers
-WHERE created_at > 01.10.2021
+WHERE created_at BETWEEN 01.10.2021 AND 31.10.2021
 ORDER BY created_at ASC
 
 /*3) Выберите список пользователей, которые ещё не опубликовали ни одного объявления. 
